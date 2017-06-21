@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: relative;
+  font-size: 14px;
+  color: "#fff";
+}
+.topBorder {
+  border-top: 1px solid red;
+}
+.leftBox {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  border-left: 1px solid red;
+}
+.bottomBox,
+.topBox {
+  width: 100%;
+  box-sizing: border-box;
+}
+.topBox {
+  height: 45%;
+}
+.topBox h3 {
+  text-align: center;
+  color: #fff;
+}
+.topBox > ul {
+  width: 100%;
+  height: 50%;
+}
+.topBox > ul > li {
+  width: 100%;
+  height: 10%;
+  display: block;
+}
+.topBox > ul > li span:nth-child(2) {
+  color: #00E600;
+}
+.topBox > ul > li span:nth-child(4) {
+  color: #C0C000;
+  text-align: end;
+}
+.topBox > ul > li > span {
+  float: left;
+  display: inline-block;
+  text-align: start;
+  width: 25%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+  text-align: center;
+}
+.topBox > .second {
+  width: 100%;
+  height: 40%;
+}
+.topBox > .second li {
+  display: block;
+  width: 100%;
+  height: 12.5%;
+}
+.topBox > .second li span {
+  display: inline-block;
+  width: 25%;
+}
+.topBox > .third {
+  width: 100%;
+  height: 5%;
+}
+.topBox > .third li {
+  width: 100%;
+}
+.topBox > .third li span {
+  display: inline-block;
+  width: 25%;
+}
+.bottomBox {
+  height: 55%;
+}
+.bottomBox ul {
+  overflow: hidden;
+  height: 95%;
+  width: 100%;
+  border-bottom: 1px solid red;
+}
+.bottomBox ul li {
+  height: 18px;
+  width: 100%;
+}
+.bottomBox ul li span {
+  width: 25%;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+.bottomBox ul li span:nth-child(2) {
+  color: #00E600;
+}
+.bottomBox ul li span:nth-child(3) {
+  color: #C0C000;
+}
+.bottomBox ul li span:nth-child(4) {
+  text-align: end;
+}
